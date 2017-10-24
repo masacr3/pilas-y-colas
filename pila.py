@@ -1,3 +1,9 @@
+# Las pilas se usan usualmente
+# /* invertir listas de datos
+# /* notacion polaca inversa
+# /* recursividad
+
+
 class PILA:
 	"""TDA
 		Primitivas
