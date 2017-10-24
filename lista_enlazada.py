@@ -39,12 +39,13 @@ class ListaEnlazada:
 		previo = self.primero
 		actual = self.primero.sig
 		
-		while not (actual == self.ultimo):
+		while actual.sig:
 			previo = actual
 			actual = actual.sig
 		
 		self.ultimo = previo
 		self.ultimo.sig = None
+		self.len -= 1
 		
 		return actual.value
 		
